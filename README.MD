@@ -1,5 +1,9 @@
-## Introduction
-### Java Microservices Deployed on EC2 Container Service
+###### Disclaimer: 
+This repo is taken from https://github.com/aws-samples which eventually is taken from https://github.com/spring-projects/spring-petclinic.
+
+I have used the sample to understand the whole process before taking any grand splitting task into hand.
+### Introduction
+#### Java Microservices Deployed on EC2 Container Service
 
 Containers are a method of operating system virtualization that allow you to run an application and its dependencies in resource-isolated processes. Containers allow you to easily package an application's code, configurations, and dependencies into easy to use building blocks that deliver environmental consistency, operational efficiency, developer productivity, and version control. Containers can help ensure that applications deploy quickly, reliably, and consistently regardless of deployment environment. Containers also give you more granular control over resources giving your infrastructure improved efficiency.
 
@@ -9,12 +13,12 @@ This is a reference architecture that shows the evolution of a Java application 
 
 We will take the [Spring Pet Clinic](https://github.com/spring-projects/spring-petclinic) as the base to extend from.
 A high level architecture of PetClinic app is as follows,
-![alt text](https://github.com/awslabs/amazon-ecs-java-microservices/blob/master/images/PetClinicApp.png)
+![alt text](https://raw.githubusercontent.com/aws-samples/amazon-ecs-java-microservices/master/images/PetClinicApp.png)
 
 So lets get to it,
-1. [Part One: Moving existing Java Spring application to a container deployed using ECS](https://github.com/awslabs/aws-java-microservice-refarch/blob/master/1_ECS_Java_Spring_PetClinic)
-2. [Part Two: Breaking the monolith apart into microservices on ECS](https://github.com/awslabs/aws-java-microservice-refarch/tree/master/2_ECS_Java_Spring_PetClinic_Microservices)
-3. [Part Three: Create a continuous integration and continuous delivery](https://github.com/awslabs/aws-java-microservice-refarch/tree/master/3_ECS_Java_Spring_PetClinic_CICD)
+1. [Part One: Moving existing Java Spring application to a container deployed using ECS](1_ECS_Java_Spring_PetClinic/readme.md)
+2. [Part Two: Breaking the monolith apart into microservices on ECS](https://github.com/MIhirMishra/splitting-monolith-into-microservice/tree/main/2_ECS_Java_Spring_PetClinic_Microservices)
+3. [Part Three: Create a continuous integration and continuous delivery](https://github.com/MIhirMishra/splitting-monolith-into-microservice/tree/main/3_ECS_Java_Spring_PetClinic_CICD)
 
 ## Prerequisites
 
