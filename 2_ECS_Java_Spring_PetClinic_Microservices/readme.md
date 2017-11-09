@@ -2,7 +2,7 @@
 
 In this example we take our monolithic application deployed on ECS and split it up into microservices.
 
-![Reference architecture of microservices on EC2 Container Service](https://github.com/awslabs/amazon-ecs-java-microservices/blob/master/images/ecs-spring-microservice-containers.png)
+![Reference architecture of microservices on EC2 Container Service](https://raw.githubusercontent.com/aws-samples/amazon-ecs-java-microservices/master/images/ecs-spring-microservice-containers.png)
 
 ## Why Microservices?
 

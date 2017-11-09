@@ -6,3 +6,6 @@
 */.springBeans
 */.travis.yml
 *.pyc
+/.idea/
+/target/
+*.iml
