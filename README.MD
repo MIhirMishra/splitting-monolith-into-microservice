@@ -1,3 +1,7 @@
+#### PS: 
+This repo is taken from https://github.com/aws-samples.
+I have used the sample to understand the whole process before I implement 
+it at work.
 ## Introduction
 ### Java Microservices Deployed on EC2 Container Service
 
